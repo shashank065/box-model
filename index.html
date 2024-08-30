@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Layout</title>
+    <style>
+        body {
+            width: 50%;
+            
+            font-family: Arial, sans-serif;
+            margin: 50px 20px;
+        }
+
+        .box {
+            border: 2px solid red;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .heading {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .list-box {
+            border: 2px solid red;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            padding-left: 10px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .li-box {
+            border: 2px solid red;
+            padding: 5px;
+        }
+
+        .buttons-links {
+            margin-top: 10px;
+        }
+
+        .buttons-links span {
+            margin-right: 5px;
+        }
+
+        .buttons-links button, .buttons-links a {
+            border: 2px solid red;
+            padding: 5px;
+            margin-right: 10px;
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="box heading">
+        I'm a box
+    </div>
+
+    <div class="box">
+        I'm also a box with some text in it. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod molestiae cumque dolores provident! Quo repellat odio rerum, ipsa maiores adipisci veritatis beatae, non ipsam minus dignissimos amet cupiditate nesciunt quas?
+    </div>
+
+    <ul>
+        <li>
+            <div class="list-box">
+                this list is a box
+            </div>
+        </li>
+        <li>
+            <div class="list-box">
+                and all the list items in it are boxes
+            </div>
+        </li>
+    </ul>
+
+    <div class="buttons-links">
+        even 
+        <span>
+            <button>buttons</button>
+        </span>
+        and 
+        <span>
+            <a href="#">links</a>
+        </span>
+        are boxes.
+    </div>
+</body>
+</html>
